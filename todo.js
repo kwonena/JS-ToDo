@@ -10,3 +10,5 @@ function pressEnter() {
         
     }
 }
+
+// listText가 checkbox 자체에 걸려서 css 적용시 문구가 아닌 checkbox에 적용됨
