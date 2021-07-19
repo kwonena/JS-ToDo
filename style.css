@@ -27,7 +27,7 @@ input:focus {
 }
 .listText {
     font-size: large;
-    margin-left: -10px;
+    margin-left: -12px;
     width: 500px;
     height: 50px;
 }

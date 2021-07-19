@@ -6,5 +6,6 @@ function pressEnter() {
         document.getElementById('todo-list').appendChild(div);
         
         alert("Okay!");
+        
     }
 }
