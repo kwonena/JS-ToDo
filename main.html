@@ -9,10 +9,20 @@
 </head>
 <body>
     <section class="todo">
-    <h2 id="title">To-Do List</h2>
-    <input type="text" id="list-title" onkeypress="pressEnter()" placeholder="What do you have to do today?">
-    <div id="todo-list">
-    </div>
+        <h2 id="title">To-Do List</h2>
+    
+        <input type="text" id="list-title" onkeypress="pressEnter()" placeholder="What do you have to do today?">
+        <div class="content">
+            <div id="todo-list"></div>
+            
+            <ul class="filters">
+                <li><input type="checkbox" name="check" value="selectAll" onclick="selectAll(this)" />
+                    <span id="select">All Checked</span></li>
+                <li><span id="All">All</span></li>
+                <li><span id="Active">Active</span></li>
+                <li><span id="Completed">Completed</span></li>
+            </ul>
+        </div>
     </section>
  
 <script src="./todo.js"></script>
